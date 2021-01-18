@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1034931546698",
+    "project_id": "easy-eat-c6b21",
+    "storage_bucket": "easy-eat-c6b21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034931546698:android:f5abbc6541538900f414b3",
+        "android_client_info": {
+          "package_name": "com.example.modern_living"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034931546698-kdjasvilmo18oe4mpdltras3cjpk1go6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ_u5fUl-nJBuyVkBYNrylNUqIcrNlys4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034931546698-kdjasvilmo18oe4mpdltras3cjpk1go6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

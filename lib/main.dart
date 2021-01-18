@@ -1,7 +1,14 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:modern_living/Screens/onboarding.dart';
+import 'package:modern_living/Data/Repo/restaurants_repo.dart';
+import 'package:modern_living/Screens/spash.dart';
+import 'Screens/homePage.dart';
+import 'Screens/profile.dart';
 
-void main() {
+void main()async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+
   runApp(MyApp());
 }
 
@@ -9,7 +16,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: OnBoardingScreen(),
+      debugShowCheckedModeBanner: false,
+      home: Splash(),
     );
   }
 }
